@@ -83,7 +83,6 @@ first_name | string | 3
 last_name |
 
 
-|students|
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | id            | right-aligned | $1600 |
