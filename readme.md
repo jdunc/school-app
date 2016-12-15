@@ -86,6 +86,6 @@ last_name |
 |students|
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| id      | right-aligned | $1600 |
-| first_name     | centered      |   $12 |
-| last_name | are neat      |    $1 |
+| id            | right-aligned | $1600 |
+| first_name    | centered      |   $12 |
+| last_name     | are neat      |    $1 |
