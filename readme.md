@@ -82,17 +82,10 @@ id | integer | **nicely**
 first_name | string | 3
 last_name |
 
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
 
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-
+|students|
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| id      | right-aligned | $1600 |
+| first_name     | centered      |   $12 |
+| last_name | are neat      |    $1 |
