@@ -75,7 +75,7 @@ Tables that have columns
   teachers
     id
 
-| students |
+| students ||
     colmn name | type | requirements
 --- | --- | ---
 id | integer | **nicely**
