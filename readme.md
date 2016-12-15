@@ -43,4 +43,41 @@ method for direct messaging between student student, student instructor or group
 
 
 Primary Objectives for CRUD development
- 
+ Database with Tables
+  students
+  teachers
+  courses
+  syllabus
+  assignments
+  readings
+  schedule
+  skills
+  projects
+  discussion boards
+  messages
+Tables that have columns
+  students
+    id
+    name
+    picture
+    profile
+    skills
+    courses currently enrolled
+      syllabi
+      readings
+      assignments
+    past enrolled courses
+    grades
+    projects
+    research
+    messages
+    schedule
+  teachers
+    id
+
+| students |
+    colmn name | type | requirements
+--- | --- | ---
+id | integer | **nicely**
+first_name | string | 3
+last_name |
