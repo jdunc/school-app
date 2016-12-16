@@ -1,4 +1,4 @@
-<h1>The goal of this app is to create a platform where students can most easily access featuers that aren't easy to view in website like blackboard and others.</h1>
+<h1>The goal of this app is to create a platform where students can most easily learn, collaborate and manage their time outside of the classroom in ways that aren't easy to accomplish using websites like blackboard and others.</h1>
 
 The goal of this is to create an easier way for students to manage their time through an intuitive learning portal interaction process, and to better facilitate collaboration and transparency between departments about ongoing research and projects.
 
