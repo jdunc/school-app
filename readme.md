@@ -75,16 +75,24 @@ Tables that have columns
   teachers
     id
 
-| students ||
-    colmn name | type | requirements
---- | --- | ---
-id | integer | **nicely**
-first_name | string | 3
-last_name |
 
 ##students
-| Tables        | Are           | Cool  |
+| column_name        | Type           | Requirements  |
 | ------------- |:-------------:| -----:|
-| id            | right-aligned | $1600 |
-| first_name    | centered      |   $12 |
-| last_name     | are neat      |    $1 |
+| id            | integer | serial, primary key |
+| first_name    | string      |   not null |
+| last_name     | string      |    not null |
+
+##instructors
+| column_name        | Type           | Requirements  |
+| ------------- |:-------------:| -----:|
+| id            | integer | serial, primary key |
+| first_name    | string      |   not null |
+| last_name     | string      |    not null |
+
+##courses
+| column_name        | Type           | Requirements  |
+| ------------- |:-------------:| -----:|
+| id            | integer | serial, primary key |
+| course_name    | string      |   not null |
+| syllabus_table_id     | integer      |    references() on delete cascade not null |
