@@ -19,7 +19,7 @@ app.use(students);
 app.use(instructors);
 app.use(courses);
 
-app.use((_req, res) => {
+app.use((_req, res, _next) => {
   res.sendStatus(404);
 });
 
